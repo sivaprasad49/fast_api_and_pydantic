@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "fast-api-and-pydantic"
+version = "0.1.0"
+description = ""
+authors = ["siva prasad"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.115.6"
+uvicorn = "^0.32.1"
+pandas = "^2.2.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
